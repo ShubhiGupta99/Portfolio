@@ -1,0 +1,47 @@
+.landing_page_container {
+    background-color: #F8F0E5;
+    min-height: 100vh;
+    height: 100vh;
+    min-width: 100vw;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border-width: 1em;
+    color:'white'
+   
+}
+
+.container2{
+    width:70%
+}
+
+.titleName {
+    display: flex;
+    height: 50%;
+    width: 60%;
+    align-items: flex-end;
+    border-width:1px;
+    color:'#fffff';
+    /* background-color: blue; */
+    margin-top: 8%;
+    /* margin-left: 20%; */
+}
+
+.titleDesc {
+    display: flex;
+    height: 50%;
+    width: 40%;
+    margin-left: 15%;
+    align-items: flex-start;
+    /* text-decoration-color: #2F2FA2; */
+    color:'red';
+    /* background-color: red; */
+}
+
+.name{
+    font-size: 10vh;
+    line-height: 1;
+    font-weight: 800;
+}

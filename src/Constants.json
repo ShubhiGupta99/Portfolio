@@ -1,0 +1,7 @@
+{
+    "about"   : "page-about",
+    "work"    : "page-work",
+    "landing" : "page-landing",
+    "contact" : "page-contact",
+    "projects" : ["portfolio", "cafeApp", "dineApp", "knockApp"]
+}

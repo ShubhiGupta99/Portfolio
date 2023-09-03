@@ -1,0 +1,46 @@
+{
+    "firstName": "Shubhi",
+    "lastName" : "Gupta",
+    "home_desc_1": "Front end software developement in India,",
+    "home_desc_2": " with a particular passion for design,",
+    "home_desc_3": " creativity and communication.",
+    "about_desc": "Development and design can feed and learn one from each other in any project. Hybrid professionals that understand and can communicate with both ends have the key to a better work flow in every environment.",
+    "about_summary": "I believe more can be achieved when both ends meet, and I have a passion for being right where they do so.",
+    "tech_stack": [
+        "JS",
+        "React JS",
+        "React Native",
+        "..."
+    ],
+    "work": [
+        {
+            "projectId": "portfolio",
+            "projectName": "PORTFOLIO",
+            "projectDesc": "Personal website",
+            "mockImage" : 0
+        },
+        {
+            "projectId": "dineIn",
+            "projectName": "DINE IN APP",
+            "projectDesc": "Production deployed application for Chaayos in iOS and Android. Provides the customer with a queue-less experience to order at cafe. Maintainance and enhancements for the app.",
+            "mockImage" : 1
+        },
+        {
+            "projectId": "cafeApp",
+            "projectName": "CAFE APP",
+            "projectDesc": "Built from the ground up. Created for Cafe to enhance the ordering experience of the customer. Provides a clear view to the customer on what is going on while ordering. Connected with the organization's Point of Sale System through MQTT network.",
+            "mockImage" : 2
+        },
+        {
+            "projectId": "knockApp",
+            "projectName": "KNOCK APP",
+            "projectDesc": "Built from scratch. Created for internal Chaayos employees to keep track of day to day analytics, supply chain & complete data of sales.",
+            "mockImage" : 3
+        }
+    ],
+    "contact": {
+        "mail": "mailto:shubhiguptahtc@gmail.com",
+        "linkedIn": "www.linkedin.com/in/shubhi-gupta-06b789191",
+        "github": "https://github.com/ShubhiGupta99"
+    }
+}

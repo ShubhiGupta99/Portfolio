@@ -1,0 +1,65 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 0;
+    margin: 0;
+    /* background-color: #05f; */
+    /* background: linear-gradient(180deg, #40f, #05f); */
+}
+
+.view {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.wrapper {
+    width: 100%;
+    height: 150%;
+    position: fixed;
+    top: -75%;
+    left: 50%;
+    /* transition: all .4s ease-in-out; */
+    /* transform: translateX(-50%) translateY(-50%); */
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    /* position: fixed; */
+    /* top: 0%; */
+    /* right: 0%; */
+    border-radius: 50%;
+    /* background-color: rgba(237, 13, 13, 0.782); */
+    /* background-color: #DBE2EF; */
+    animation: circle 2s;
+    transition: all .4s linear;
+}
+
+.wrapper2 {
+    width: 50%;
+    height: 400px;
+    position: fixed;
+    top: 75%;
+    right: 60%;
+    /* transform: translateX(-50%) translateY(-50%); */
+}
+
+.container2 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* background-color: rgba(237, 13, 13, 0.782); */
+    background-color: #222831;
+    border-radius: 100%;
+    transform-origin: -100% 40%;
+}
+
+.item {
+    width: inherit;
+    height: inherit;
+    background: white;
+    transform-origin: 50% 100%;
+}

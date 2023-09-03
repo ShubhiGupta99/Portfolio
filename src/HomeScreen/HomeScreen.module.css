@@ -1,0 +1,232 @@
+body {
+  background-color: #EADBC8;
+  /* background-color: #303030; */
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  z-index: -1;
+}
+
+.mainContainer {
+  height: 100vh;
+  width: 100vw;
+}
+
+.mainContainer2 {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.header {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  flex-direction: row;
+  padding-right: 2%;
+  top: 0%;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: fixed;
+  background-color: transparent;
+}
+
+.header2 {
+  display: flex;
+  width: 60vw;
+  height: 10vh;
+  flex-direction: row;
+  padding-right: 2%;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: transparent;
+}
+
+.footer {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  bottom: 0%;
+  right: 0%;
+  padding-inline: 2%;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: fixed;
+  background-color: transparent;
+}
+
+.nav_sections {
+  display: flex;
+  width: 20vw;
+  margin-left: 2%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0 0 1rem;
+  line-height: 1.15;
+  font-size: 3.6rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  max-width: 800px;
+  margin-top: 3rem;
+}
+
+.card {
+  margin: 1rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+/* Styling for CSS Components */
+
+.dynamicAnimationComponentContainer {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+
+.circle1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border-width: 1;
+  border-color: #2f2f2f;
+  background-color: #0070f3;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  animation: circle 6s linear infinite;
+  transition: 0.5s;
+}
+
+.circle2 {
+  width: 330px;
+  height: 330px;
+  border: 1px solid #CCC;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+  background-color: #ffe793;
+  animation: 6s linear infinite;
+  transition: 0.5s;
+}
+
+.circle3 {
+  /* z-index: 3; */
+}
+
+.circle4 {
+  /* z-index: 4; */
+}
+
+.dynamicAnimationComponentContainer:hover {
+
+  .circle1 {
+    width: 300px;
+    height: 300px;
+    right: 0;
+    border-width: 1;
+    border-color: #2f2f2f;
+    background-color: red;
+    transform: translate(-50%, 0);
+  }
+
+  .circle2 {
+    width: 800px;
+    height: 800px;
+    border: 1px solid #CCC;
+    position: absolute;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #ffe793;
+    transform: translate(-50%, -50%);
+  }
+}
+  
+.listStyle {
+  margin: 0;
+  padding: 0
+}
